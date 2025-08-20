@@ -1,0 +1,309 @@
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  background: #ffffff !important; 
+  color: #000000 !important; 
+}
+
+.container { 
+  width: 90%; 
+  max-width: 1100px; 
+  margin: auto; 
+}
+
+.nav { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 1rem 0; 
+}
+
+.logo { 
+  font-weight: bold; 
+  font-size: 1.5rem; 
+  color: #000000 !important; 
+  text-decoration: none; 
+}
+
+.nav-links { 
+  list-style: none; 
+  display: flex; 
+  gap: 1.2rem; 
+}
+
+.nav-links a { 
+  text-decoration: none; 
+  color: #000000 !important; 
+  font-weight: 600; 
+}
+
+.hero { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 3rem 0; 
+}
+
+.hero-text h1 { 
+  font-size: 2.5rem; 
+  margin: 0.2rem 0; 
+  color: #000000 !important; 
+}
+
+.hero-text h3 {
+  color: #000000 !important;
+}
+
+.hero-text p {
+  color: #000000 !important;
+}
+
+.accent { 
+  color: #000000 !important; 
+}
+
+.btn { 
+  background: #000000 !important; 
+  color: #ffffff !important; 
+  padding: 0.7rem 1.4rem; 
+  border-radius: 8px; 
+  text-decoration: none; 
+  display: inline-block; 
+  margin: 1rem 0; 
+  border: none; 
+  cursor: pointer; 
+  font-size: 1rem; 
+}
+
+.btn:hover {
+  background: #333333 !important;
+}
+
+.hero-img img { 
+  max-width: 300px; 
+  border-radius: 12px; 
+}
+
+.grid { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 1rem; 
+  margin-bottom: 3rem; 
+}
+
+/* Resume section styling */
+.resume-container {
+  margin: 2rem 0;
+}
+
+.resume-actions {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* GitHub section styling */
+.github-container {
+  margin: 2rem 0;
+}
+
+.github-preview {
+  border: 2px solid #000000;
+  border-radius: 12px;
+  padding: 2rem;
+  background: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.github-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.github-icon {
+  font-size: 2rem;
+}
+
+.github-username {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000 !important;
+}
+
+.github-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #000000 !important;
+}
+
+.github-stats {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.stat {
+  background: #f8f8f8;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #666666 !important;
+  border: 1px solid #ddd;
+}
+
+.github-actions {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* About section styling */
+.about {
+  margin: 4rem auto;
+  max-width: 800px;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #000000 !important;
+  text-align: center;
+}
+
+.about-content {
+  line-height: 1.8;
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+  color: #000000 !important;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.about-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Contact page styling */
+.contact-content {
+  max-width: 500px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.contact-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #000000 !important;
+}
+
+.contact-intro {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  color: #000000 !important;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem 1.5rem;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000 !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  background: #ffffff;
+  min-width: 280px;
+  justify-content: center;
+}
+
+.contact-link:hover {
+  background: #000000;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.contact-emoji {
+  font-size: 1.8rem;
+}
+
+.contact-image {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.contact-text {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .contact-content h2 {
+    font-size: 2rem;
+  }
+  
+  .contact-intro {
+    font-size: 0.9rem;
+  }
+  
+  .contact-link {
+    min-width: 250px;
+    padding: 0.6rem 1.2rem;
+  }
+  
+  .contact-emoji {
+    font-size: 1.5rem;
+  }
+  
+  .contact-image {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .contact-text {
+    font-size: 1.1rem;
+  }
+}
+
+/* Additional rules to ensure black and white theme */
+h1, h2, h3, h4, h5, h6 {
+  color: #000000 !important;
+}
+
+p, span, div {
+  color: #000000 !important;
+}
+
+a {
+  color: #000000 !important;
+}
+
+a:hover {
+  color: #333333 !important;
+}
+
+/* Override any potential green colors */
+* {
+  color: #000000 !important;
+}
+
+.logo span {
+  color: #000000 !important;
+}
