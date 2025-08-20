@@ -4,7 +4,7 @@ A clean, professional portfolio website showcasing my background, projects, and 
 
 ## Live Demo
 
-[View Live Portfolio](https://ebrahimelmi.github.io/portfolio)
+[View Live Portfolio](https://ebrahimelmi.github.io/ebrahim-elmi-portfolio)
 
 ## 📋 Features
 
